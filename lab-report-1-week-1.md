@@ -7,7 +7,9 @@
 # Remotely Connecting
 * Once installed, open a terminal so we can connect to a remote computer
 * First you have to type in the ssh command into the terminal
-* In this specific lab, the command we entered was 
+* In this specific lab, the command we entered was: ssh cs15lfa22zz@ieng6.ucsd.edu (replacing zz with our specific account letter)
+* You'll be given a message that looks like this (respond yes) and prompted to enter your password
+* <img width="663" alt="Screen Shot 2022-09-30 at 7 18 09 PM" src="https://user-images.githubusercontent.com/114564837/193379235-1871517b-75f1-46a5-b0d8-dccc2e14817c.png">
 ## Trying Some Commands
 ## Moving Files with scp
 ## Setting an SSH Key
