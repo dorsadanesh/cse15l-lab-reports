@@ -33,5 +33,11 @@
 * To make sure it worked, you will see the a random art image and the terminal looks like this
 * <img width="670" alt="Screen Shot 2022-09-30 at 9 12 51 PM" src="https://user-images.githubusercontent.com/114564837/193391461-b677fb95-1ddf-4aef-8a80-7a4fdf96a80f.png">
 * Then again, the commands exit and ssh cs15lfa22zz@ieng6.ucsd.edu
+* This is what it should look like to login without a password:
+* <img width="675" alt="Screen Shot 2022-09-30 at 9 32 59 PM" src="https://user-images.githubusercontent.com/114564837/193392679-9dbd2888-268a-4acc-9494-e94588773b23.png">
 ## Optimizing Remote Running
-*
+* There are commands that can simplify this process further
+* ssh cs15lfa22@ieng6.ucsd.edu "ls"
+* ^ writing commands in quotes in the ssh command runs it on the remote server and exits
+* ^ this command logs in and lists the home directory on the remote server
+* <img width="647" alt="Screen Shot 2022-09-30 at 9 39 50 PM" src="https://user-images.githubusercontent.com/114564837/193392843-2e07e0aa-21ef-4920-a6cf-0eeec9c1fbda.png">
