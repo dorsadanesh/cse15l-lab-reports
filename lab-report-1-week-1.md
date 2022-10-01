@@ -32,6 +32,6 @@
 * To set it up, type ssh-keygen into the terminal, click enter twice for the passphrase
 * To make sure it worked, you will see the a random art image and the terminal looks like this
 * <img width="670" alt="Screen Shot 2022-09-30 at 9 12 51 PM" src="https://user-images.githubusercontent.com/114564837/193391461-b677fb95-1ddf-4aef-8a80-7a4fdf96a80f.png">
-* Then again, the command: ssh cs15lfa22zz@ieng6.ucsd.edu
+* Then again, the commands exit and ssh cs15lfa22zz@ieng6.ucsd.edu
 ## Optimizing Remote Running
 *
