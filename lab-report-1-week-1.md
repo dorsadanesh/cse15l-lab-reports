@@ -1,7 +1,7 @@
 # Lab Report 1: How to log into a course-specific account on ieng6
 ## Installing Visual Studio Code
 * I already had VS Code installed, so I did not need to do this step
-* The website to install is https://code.visualstudio.com/, and it has all the installation instructions
+* The website to install is [here](https://code.visualstudio.com/), and it has all the installation instructions
 * Once installed, opening VSC will lead to this:
 * <img width="536" alt="Screen Shot 2022-09-30 at 6 57 37 PM" src="https://user-images.githubusercontent.com/114564837/193378642-99e7d564-7810-4b2b-8e9e-512ed01a2d30.png">
 # Remotely Connecting
