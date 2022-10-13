@@ -66,11 +66,23 @@ The query
 
 ## Part Two
 **Two bugs from Week 3 Lab files:**
-1. * The failure-inducing input (the code of the test)
-   * The symptom (the failing test output)
-   * The bug (the code fix needed)
+1. * The failure-inducing input (the code of the test):
+    ```
+    @Test
+    public void reverseTests() {
+        int[] input1 = {4,5,4};
+        assertArrayEquals(new int[]{4,5,4}, ArrayExamples.reversed(input1));
+    }
+    ```
+   * The symptom (the failing test output):
+    Expected: 4
+    Actual: 0
+   * The bug (the code fix needed):
    * Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
-2. * The failure-inducing input (the code of the test)
+2. * The failure-inducing input (the code of the test):
+    ```
+    @Test
+    ```
    * The symptom (the failing test output)
    * The bug (the code fix needed)
    * Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
