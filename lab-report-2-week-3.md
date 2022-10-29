@@ -12,7 +12,7 @@ class Handler implements URLHandler {
         ArrayList<String> addedString = new ArrayList<String>();
         ArrayList<String> foundString = new ArrayList<String>();
             if (url.getPath().equals("/")) {
-                return String.format("Word List: %s", listOfWords.toString());
+                return String.format("Word List: %s", addedString.toString());
             }
             else if (url.getPath().equals("/add")) {
                 String[] parameters = url.getQuery().split("=");
