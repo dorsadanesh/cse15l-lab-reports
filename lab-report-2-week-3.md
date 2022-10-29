@@ -11,7 +11,10 @@ class Handler implements URLHandler {
     public String handleRequest(URI url) {
         ArrayList<String> addedString = new ArrayList<String>();
         ArrayList<String> foundString = new ArrayList<String>();
-            if (url.getPath().contains("/add")) {
+            if (url.getPath().equals("/")) {
+                return String.format("Word List: %s", listOfWords.toString());
+            }
+            else if (url.getPath().equals("/add")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     addedString.add(parameters[1]);
@@ -21,7 +24,7 @@ class Handler implements URLHandler {
                     return "Nothing to add";
                 }
 
-            } else if (url.getPath().contains("/search")) {
+            } else if (url.getPath().equals("/search")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     for(String s : addedString){
@@ -62,7 +65,7 @@ Once the server is running, the browser will open to this: <img width="1363" alt
 Then, adding a string, such as hello, should look like this: <img width="1360" alt="Screen Shot 2022-10-13 at 9 11 24 AM" src="https://user-images.githubusercontent.com/114564837/195649960-8dd23d8d-45d0-4b36-b934-9f616bc7f239.png">
 The add is a result of the if loop beginning on line 10 of the SearchEngine code. It looks for /add in the url, followed by s= and a string. If it is valid, the string will be added to the arraylist called addedString and the browser will show the message "String Added!" as seen above in the screenshot.
 
-The query
+The /search?s= calls the handlerequest method. It will search for the string following the = sign. In the browser, it should look like this: 
 
 ## Part Two
 **Two bugs from Week 3 Lab files:**
