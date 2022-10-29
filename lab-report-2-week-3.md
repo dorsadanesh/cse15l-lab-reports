@@ -60,7 +60,7 @@ class SearchEngine {
     }
 }
 ```
-Once the server is running, the browser will open to this: <img width="1363" alt="Screen Shot 2022-10-13 at 9 07 10 AM" src="https://user-images.githubusercontent.com/114564837/195648918-26a82f64-a684-4710-afb7-383fa5917d68.png">
+Once the server is running, the browser will open to this: <img width="1333" alt="Screen Shot 2022-10-28 at 8 24 50 PM" src="https://user-images.githubusercontent.com/114564837/198804257-285bd4bf-9e38-4536-aed4-ef009dce85e9.png">
 
 Then, adding a string, such as hello, should look like this: <img width="1360" alt="Screen Shot 2022-10-13 at 9 11 24 AM" src="https://user-images.githubusercontent.com/114564837/195649960-8dd23d8d-45d0-4b36-b934-9f616bc7f239.png">
 The add is a result of the if loop beginning on line 10 of the SearchEngine code. It looks for /add in the url, followed by s= and a string. If it is valid, the string will be added to the arraylist called addedString and the browser will show the message "String Added!" as seen above in the screenshot.
