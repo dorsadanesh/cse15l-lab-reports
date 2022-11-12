@@ -29,17 +29,18 @@ that command will show you how many times the string "hello" appears in the file
 
 - grep “^hello” 
 ```
-grep “^hello” 
+grep “^hello” file.txt
+```
+that command searches the file for lines that begins with the string "hello" and returns the line
+
+- grep
+```
+grep "hello$"
 ```
 
 - grep
 ```
-grep
-```
-
-- grep
-```
-grep
+grep "lo$"
 ```
 
 3. grep “[a-e]”
@@ -58,5 +59,3 @@ grep
 ```
 grep
 ```
-
-For example, we saw the -name option for find in class. For each of those options, give 3 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
