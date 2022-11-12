@@ -39,21 +39,21 @@ grep "hello$"
 ```
 that command does the opposite of ^ and searches for the lines in the file that end with the string "hello".
 
-- grep "."
+- grep ".": matches any character
 ```
 grep "^.$" file.txt
 ```
-another example that will return the same output as the previous example, although it does not have the full string
+matches all lines with any single character
 
 3. grep “[]”
 
-- grep "[a-d]"
+- grep "[a-d]": displays lines containing letters within the range
 ```
 grep "[a-d]"
 ```
 that command searches for lines that contain any of the letters a, b, c, or d
 
-- grep "[^]": 
+- grep "[^]": matches to lines that do not contain the following strings
 ```
 grep "[^aeiou]"
 ```
