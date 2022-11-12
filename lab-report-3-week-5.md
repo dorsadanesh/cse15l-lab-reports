@@ -1,7 +1,7 @@
 # Lab Report 3
 ## Researching Commands
 
-Consider the command grep. It stands for "global regular expression print" and searches for the pattern within a given set of files.
+Consider the command grep. It stands for "global regular expression print" and searches for the pattern within a given set of files. All of these commands are incredibly useful depending on what you are searching for in your files.
 
 Find 3 interesting command-line options or alternate ways to use the command you chose. 
 
@@ -29,33 +29,38 @@ that command will show you how many times the string "hello" appears in the file
 
 - grep “^hello” 
 ```
-grep “^hello” file.txt
+grep “^hello” 
 ```
 that command searches the file for lines that begins with the string "hello" and returns the line
 
-- grep
+- grep "hello$"
 ```
-grep "hello$"
+grep "hello$" 
 ```
+that command does the opposite of ^ and searches for the lines in the file that end with that string
 
-- grep
+- grep "lo$"
 ```
-grep "lo$"
+grep "lo$" file.txt
 ```
+another example that will return the same output as the previous example, although it does not have the full string
 
-3. grep “[a-e]”
+3. grep “[]”
 
-- grep
+- grep "[a-d]"
 ```
-grep
+grep "[a-d]"
 ```
+that command searches for lines that contain any of the letters a, b, c, or d
 
-- grep
+- grep "[^aeiou]"
 ```
-grep
+grep "[^aeiou]"
 ```
+that command will search for lines in the file that do not contain any vowels
 
-- grep
+- grep "[0-9]"
 ```
-grep
+grep "[0-9]"
 ```
+that command searches for lines that start with a digit following zero or more spaces
